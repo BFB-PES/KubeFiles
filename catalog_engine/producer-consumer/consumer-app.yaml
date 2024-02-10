@@ -16,5 +16,5 @@ spec:
     spec:
       containers:
         - name: consumer-app
-          image: sowmyaa7501/consumer_app:4.0
-          imagePullPolicy: Always
+          image: sowmyaa7501/consumer_app:3.0
+          imagePullPolicy: IfNotPresent
